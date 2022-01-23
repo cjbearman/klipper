@@ -8,6 +8,7 @@ The configuration is broken up into a variety of files:
 * macros.cfg - Misc macros
 * start.cfg - Start script
 * end.cfg - End script
+* loading.cfg - Load and unload filament macros
 
 # CURA configuration
 Set start gcode to:
