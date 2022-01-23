@@ -1,5 +1,16 @@
 # Klipper configuration for ender 3 v2
 
+This is the configuration that I use for Klipper on my customized Ender 3 V2.
+
+Specific machine upgrades:
+* Ender 3 V2
+* Microswiss Direct Drive extruder
+* Microswiss All Metal hot end
+* Dual Z axis
+* Gulfcoast Robotics HEX EPCOS Thermistor (300c capable)
+* Big Tree Tech Smart Filament Sensor
+
+
 The configuration is broken up into a variety of files:
 
 * printer.cfg - The main configuration file
@@ -9,6 +20,8 @@ The configuration is broken up into a variety of files:
 * start.cfg - Start script
 * end.cfg - End script
 * loading.cfg - Load and unload filament macros
+* park.cfg - Parking, used by load/unload
+
 
 # CURA configuration
 Set start gcode to:
