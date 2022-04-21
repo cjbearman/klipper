@@ -1,6 +1,6 @@
 # Klipper configuration for ender 3 v2
 
-This is the configuration that I use for Klipper on my customized Ender 3 V2.
+This is the configuration that I use for Klipper on my customized Ender 3 V2 (SKR Mini E3 V3.0 mainboard)
 
 Specific machine upgrades:
 * Ender 3 V2
