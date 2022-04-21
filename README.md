@@ -4,11 +4,15 @@ This is the configuration that I use for Klipper on my customized Ender 3 V2.
 
 Specific machine upgrades:
 * Ender 3 V2
+* BTT SKR PRO E2 V3.0 Mainboard
 * Microswiss Direct Drive extruder
 * Microswiss All Metal hot end
 * Dual Z axis
 * Gulfcoast Robotics HEX EPCOS Thermistor (300c capable)
 * Big Tree Tech Smart Filament Sensor
+
+Note that my last configuration that used my old creality-4.2.2 board
+can be found in the creality-4.2.2 branch.
 
 
 The configuration is broken up into a variety of files:
