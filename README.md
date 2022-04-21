@@ -11,6 +11,9 @@ Specific machine upgrades:
 * Gulfcoast Robotics HEX EPCOS Thermistor (300c capable)
 * Big Tree Tech Smart Filament Sensor
 
+Note that my last configuration that used my old creality-4.2.2 board
+can be found in the creality-4.2.2 branch.
+
 
 The configuration is broken up into a variety of files:
 
