@@ -37,3 +37,15 @@ Set end gcode to:
 ```
 END_PRINT
 ```
+
+# SuperSlicer configuration
+Set start gcode to:
+```
+START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature_0]
+```
+
+Set end gcode to:
+```
+END_PRINT
+```
+
