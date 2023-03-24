@@ -1,0 +1,7 @@
+STM32
+STM32G0B1
+Clock Ref 8 Mhz
+CAN Bus on PB0/PB1
+8Kib offset application start offset
+500000 CAn bus speed
+Support bootloader entry on rapid double click of reset button

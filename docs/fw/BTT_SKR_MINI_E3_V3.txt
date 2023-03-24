@@ -1,0 +1,12 @@
+# Firmware config for SKR MINI E3 V3
+
+(*) Enable low level config
+STM32
+STM32G0B1
+8KiB bootloader offset
+8 Mhz crystal
+Comms USB on PA11/PA12
+
+make clean && make -j4
+Install as firmware.bin via card
+
