@@ -1,0 +1,7 @@
+Install klipperscreen
+
+cd ~/
+git clone https://github.com/jordanruthe/KlipperScreen.git
+cd ~/KlipperScreen
+./scripts/KlipperScreen-install.sh
+

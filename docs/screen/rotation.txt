@@ -1,0 +1,29 @@
+Create /usr/share/X11/xorg.conf.d/90-monitor.conf:
+
+Section "Monitor"
+    Identifier "HDMI-1"
+    # This identifier would be the same as the name of the connector printed by xrandr.
+    # it can be "HDMI-0" "DisplayPort-0", "DSI-0", "DVI-0", "DPI-0" etc
+
+    Option "Rotate" "inverted"
+    # Valid rotation options are normal,inverted,left,right
+
+
+    #Option "PreferredMode" "1920x1080"
+    # May be necesary if you are not getting your prefered resolution.
+EndSection
+
+
+Edit /usr/share/X11/xorg.conf.d/40-libinput.conf:
+Add the Option line below to libinput touchscreen catchall
+
+Section "InputClass"
+        Identifier "libinput touchscreen catchall"
+        MatchIsTouchscreen "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+        Option "TransformationMatrix" "-1 0 1 0 -1 1 0 0 1"
+EndSection
+
+
+..Restart
