@@ -7,6 +7,14 @@ STM32G0B1
 8 Mhz crystal
 Comms USB on PA11/PA12
 
-make clean && make -j4
-Install as firmware.bin via card
+cd ~/klipper
+make clean && make 
+Install as firmware.bin via card, or (easier):
+
+After building the firmware
+
+cd ~/klipper
+service klipper stop
+./scripts/flash-sdcard.sh /dev/ttyACM0 btt-skr-mini-e3-v3
+service klipper start
 
