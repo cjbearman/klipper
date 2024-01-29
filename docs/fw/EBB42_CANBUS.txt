@@ -5,3 +5,5 @@ CAN Bus on PB0/PB1
 8Kib offset application start offset
 500000 CAn bus speed
 Support bootloader entry on rapid double click of reset button
+
+Flash with lib/canboot/flash_can.py -u 91fa988d3730 -f ~/klipper/out/klipper.bin
